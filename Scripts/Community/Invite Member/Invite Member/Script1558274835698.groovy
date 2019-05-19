@@ -16,20 +16,19 @@ import com.kms.katalon.core.testdata.CSVData as CSVData
 
 WebUI.callTestCase(findTestCase('SignUp Test/SignIn'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:3000/aname?tab=posts')
+WebUI.navigateToUrl('http://localhost:3000/community01?tab=posts')
 
-CSVData data = findTestData('csv/Post_Community (1)')
+WebUI.click(findTestObject('button_Settings'))
 
-for (def index : (0..data.getRowNumbers() - 1)) {
-    WebUI.click(findTestObject('Page_CnAME2 community/div_Info_sc-bxivhb beCRxj'))
+WebUI.click(findTestObject('div_Members'))
 
-    WebUI.setText(findTestObject('Page_CnAME2 community/input_Info_sc-gzVnrw lbskuL'), data.internallyGetValue('PostDetails', 
-            index))
+CSVData data = findTestData("csv/Invite_Data")
 
-    WebUI.setText(findTestObject('Page_CnAME2 community/textarea'), data.internallyGetValue('PostDes', index))
-
-    WebUI.click(findTestObject('Page_CnAME2 community/button_Post'))
-
-    WebUI.click(findTestObject('Object Repository/Page_Post title  CnAME2/span_view-close'))
+for (def index : (0.. data.getRowNumbers() - 1)) {
+	WebUI.setText(findTestObject('input_Invite by email_style__EmailInviteInput-sc-1vvoo0f-1 gNxvqX'), data.internallyGetValue("Email", index))
+	
+	WebUI.setText(findTestObject('input_Invite by email_style__EmailInviteInput-sc-1vvoo0f-1 kRLwzc'), data.internallyGetValue("FirstName", index))
+	
+	WebUI.click(findTestObject('button_Send Invitations'))
 }
 

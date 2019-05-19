@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//main[@id='main']/div/section[2]/section/div[3]/div[2]/div[2]/div[2]/button[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@data-cy = 'mini-composer-post']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,7 +31,7 @@
       <value>4</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-cy</name>
       <type>Main</type>
@@ -41,7 +45,7 @@
       <value>style__StyledButton-sc-1g5bc3a-2 style__StyledPrimaryButton-sc-1g5bc3a-4 eRUuYE</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

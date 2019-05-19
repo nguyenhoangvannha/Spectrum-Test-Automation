@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;main&quot;)/div[@class=&quot;style__View-sc-3ct0cg-17 BxJlX&quot;]/div[@class=&quot;style__SectionsContainer-sc-1z019wi-1 lazENA&quot;]/div[@class=&quot;style__Column-sc-1z019wi-2 UoWkh&quot;]/div[@class=&quot;style__SectionCard-sc-1z019wi-3 fuuGnJ&quot;]/form[@class=&quot;style__Form-sc-1ir041a-1 iAAYSm&quot;]/label[@class=&quot;style__StyledLabel-sc-17zryot-0 fqafaZ&quot;]/input[@class=&quot;style__StyledInput-sc-17zryot-2 jHXlSy&quot;][count(. | //input[@data-cy = 'community-settings-website-input']) = count(//input[@data-cy = 'community-settings-website-input'])]</value>
+         <value>//input[@data-cy = 'community-website-input']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-cy</name>
       <type>Main</type>
-      <value>community-settings-website-input</value>
+      <value>community-website-input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <value>http://localhost:3000/new/community</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
