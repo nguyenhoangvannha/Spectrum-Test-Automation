@@ -13,7 +13,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,7 +34,7 @@
       <value>style__StyledButton-sc-1g5bc3a-2 style__StyledPrimaryButton-sc-1g5bc3a-4 eRUuYE</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -48,7 +48,7 @@
       <value>id(&quot;main&quot;)/div[1]/div[@class=&quot;style__NavContainer-sc-1qb1h7s-30 gnOHxW&quot;]/div[@class=&quot;style__Tabs-sc-1qb1h7s-31 eHgJvY&quot;]/div[@class=&quot;style__AuthTab-sc-1qb1h7s-47 btxGOV&quot;]/a[1]/button[@class=&quot;style__StyledButton-sc-1g5bc3a-2 style__StyledPrimaryButton-sc-1g5bc3a-4 eRUuYE&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

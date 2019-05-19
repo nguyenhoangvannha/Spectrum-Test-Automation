@@ -16,20 +16,27 @@ import com.kms.katalon.core.testdata.CSVData
 
 WebUI.callTestCase(findTestCase('SignUp Test/SignIn'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CSVData data = findTestData("csv/Update_Community_Data")
+CSVData data = findTestData("csv/Create_Community_Data")
 
 for (def index : (0.. data.getRowNumbers() - 1)) {
-	WebUI.navigateToUrl(data.internallyGetValue("ComLink", index))
+	WebUI.click(findTestObject('Object Repository/a_exploreExplore'))
 	
-	WebUI.click(findTestObject('Object Repository/button_Settings'))
+	WebUI.click(findTestObject('Object Repository/button_Create a community'))
 	
-	WebUI.setText(findTestObject('Object Repository/input_Name_style__StyledInput-sc-17zryot-2 jHXlSy'), data.internallyGetValue("Name", index))
+	WebUI.setText(findTestObject('Object Repository/input_What is your community called_style__StyledInput-sc-17zryot-2 jHXlSy'),
+		data.internallyGetValue("Name", index))
 	
-	WebUI.setText(findTestObject('Object Repository/textarea_Description_style__StyledTextArea-sc-17zryot-3 hSQZHk'), data.internallyGetValue("Describe", index))
+	WebUI.setText(findTestObject('Object Repository/textarea_Describe it in 140 characters or less_style__StyledTextArea-sc-17zryot-3 hSQZHk'),
+		data.internallyGetValue("Describe", index))
 	
 	WebUI.setText(findTestObject('Object Repository/input_Optional Add your communitys website_style__StyledInput-sc-17zryot-2 jHXlSy'),
 		data.internallyGetValue("Website", index))
 	
-	WebUI.click(findTestObject('Object Repository/button_Save'))
+	WebUI.click(findTestObject('Object Repository/div_checkboxI have read the Spectrum Code of Conduct and agree to enforce it in my community'))
+	
+	WebUI.click(findTestObject('Object Repository/button_Create Community  Continue'))
+	
+	WebUI.click(findTestObject('Object Repository/button_Skip this step'))
+	
+	WebUI.click(findTestObject('Object Repository/button_Go to my community'))
 }
-

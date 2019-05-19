@@ -17,9 +17,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:3000/')
 
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/button_Log in or sign up'))
+WebUI.click(findTestObject('Page_Spectrum/button_Log in or sign up'))
 
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/span_Sign in with GitHub'))
+WebUI.click(findTestObject('Page_Spectrum/span_Sign in with GitHub'))
 
 WebUI.setText(findTestObject('Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 'nha.nguyenhoangvan@gmail.com')
 
@@ -27,7 +27,5 @@ WebUI.setEncryptedText(findTestObject('Page_Sign in to GitHub  GitHub/input_Forg
 
 WebUI.click(findTestObject('Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
 
-WebUI.click(findTestObject('Object Repository/Page_Authorize application/button_Authorize brianlovin'))
-
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/button_Save and Continue'))
+WebUI.click(findTestObject('Page_Spectrum/button_Save and Continue'))
 

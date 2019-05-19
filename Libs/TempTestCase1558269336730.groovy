@@ -14,7 +14,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\nguye\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Community\\Post\\Post To Community\\20190519_161059\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\nguye\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Community\\Post\\Post To Community\\20190519_193527\\execution.properties')
 
 TestCaseMain.beforeStart()
 

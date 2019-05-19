@@ -17,5 +17,7 @@ WebUI.callTestCase(findTestCase('SignUp Test/SignIn'), [:], FailureHandling.STOP
 
 WebUI.navigateToUrl('http://localhost:3000/spectrum')
 
-WebUI.click(findTestObject('Page_Spectrum community/button_Join community'))
+if (WebUI.verifyElementPresent(findTestObject('Page_Spectrum community/button_Join community'), 0)) {
+	WebUI.click(findTestObject('Page_Spectrum community/button_Join community'))
+}
 

@@ -1,0 +1,6 @@
+ComLink,Name,Describe,Website
+http://localhost:3000/com-01,communityNew01,Test community New 01,http://localhost:3000/new/communityNew
+http://localhost:3000/com-02,communityNew02,Test community New 02,http://localhost:3000/new/communityNew
+http://localhost:3000/com-03,communityNew03,Test community New 03,http://localhost:3000/new/communityNew
+http://localhost:3000/com-04,communityNew04,Test community New 04,http://localhost:3000/new/communityNew
+http://localhost:3000/com-05,communityNew05,Test community New 05,http://localhost:3000/new/communityNew

@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\nguye\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Community\\Post\\Post To Community\\20190519_160458\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\nguye\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Community\\Create Community Test\\Create Community\\20190519_171544\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Community/Post/Post To Community', new TestCaseBinding('Test Cases/Community/Post/Post To Community',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Community/Create Community Test/Create Community', new TestCaseBinding('Test Cases/Community/Create Community Test/Create Community',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

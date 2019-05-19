@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(//input[@value=''])[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@data-cy = 'mini-composer-title' and @placeholder = concat('What' , &quot;'&quot; , 's on your mind?')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +24,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-cy</name>
       <type>Main</type>

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//main[@id='main']/div/section[2]/section/div[3]/div[2]/div/div/div/textarea</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@data-cy = 'mini-composer-body' and @placeholder = '(Optional) Add more details...']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +24,7 @@
       <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-cy</name>
       <type>Main</type>

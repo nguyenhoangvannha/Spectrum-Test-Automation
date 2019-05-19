@@ -12,16 +12,17 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testdata.CSVData as CSVData
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:3000/')
 
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/button_Log in or sign up'))
+WebUI.click(findTestObject('Page_Spectrum/button_Log in or sign up'))
 
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/span_Sign in with GitHub'))
+WebUI.click(findTestObject('Page_Spectrum/span_Sign in with GitHub'))
 
-WebUI.setText(findTestObject('Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 'nha.nguyenhoangvan@gmail.com')
+WebUI.setText(findTestObject('Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 'deadlinehcmus')
 
 WebUI.setEncryptedText(findTestObject('Page_Sign in to GitHub  GitHub/input_Forgot password_password'), 'nkmsKNbg5JHOa+X75XDc8Q==')
 

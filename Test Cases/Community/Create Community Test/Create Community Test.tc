@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Community Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>286dd468-bbd9-4a34-9503-c9de02ed263e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>06422f6b-1c4b-49d8-b98f-8e2ec05e514b</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e24536e2-6474-400d-87f9-f3af71282305</id>
+      <masked>false</masked>
+      <name>describe</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5f3fbe9d-b535-4573-9568-7eb39b28a467</id>
+      <masked>false</masked>
+      <name>website</name>
+   </variable>
+</TestCaseEntity>

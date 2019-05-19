@@ -13,7 +13,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +27,7 @@
       <value>style__Label-k7ijf3-3 fBefBv</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -41,7 +41,7 @@
       <value>id(&quot;root&quot;)/div[@class=&quot;style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk&quot;]/div[@class=&quot;sc-htpNat KtFsv&quot;]/div[@class=&quot;style__FullscreenViewContainer-kqjrtc-0 hiFXFW&quot;]/div[@class=&quot;style__FullscreenContent-vd665t-17 iRZKmJ&quot;]/div[@class=&quot;style__Container-k7ijf3-0 gTbVgf&quot;]/a[@class=&quot;style__A-k7ijf3-1 ceuFSX&quot;]/div[@class=&quot;style__SigninButton-k7ijf3-2 style__GithubButton-k7ijf3-7 jNEBvb&quot;]/span[@class=&quot;style__Label-k7ijf3-3 fBefBv&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
