@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Community Suite,Firefox 66.0,,,2019-05-19 14:25:21,2019-05-19 14:26:11,49.992s,FAILED
+,,,,,,,
+Test Cases/Create Community Test/Create Community,Firefox 66.0,,,2019-05-19 14:25:21,2019-05-19 14:26:10,49.179s,FAILED
+"openBrowser("""")",Firefox 66.0,,,2019-05-19 14:25:21,2019-05-19 14:25:25,3.816s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-19 14:25:25,2019-05-19 14:25:26,1.247s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-19 14:25:26,2019-05-19 14:25:27,1.380s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-19 14:25:27,2019-05-19 14:25:30,2.212s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""deadlinehcmus"")",Firefox 66.0,,,2019-05-19 14:25:30,2019-05-19 14:25:30,0.058s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""nkmsKNbg5JHOa+X75XDc8Q=="")",Firefox 66.0,,,2019-05-19 14:25:30,2019-05-19 14:25:30,0.084s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-19 14:25:30,2019-05-19 14:25:36,5.928s,PASSED
+"navigateToUrl(""http://localhost:3000/community-test?tab=posts"")",Firefox 66.0,,,2019-05-19 14:25:36,2019-05-19 14:25:37,0.984s,PASSED
+"click(findTestObject(""Object Repository/Page_Community Test community/a_exploreExplore""))",Firefox 66.0,,,2019-05-19 14:25:37,2019-05-19 14:25:38,0.949s,PASSED
+"click(findTestObject(""Page_Explore/button_Create a community""))",Firefox 66.0,,,2019-05-19 14:25:38,2019-05-19 14:25:38,0.590s,PASSED
+"setText(findTestObject(""Object Repository/Page_New community/input_What is your community called_style__StyledInput-sc-17zryot-2 jHXlSy""), community_name)",Firefox 66.0,,,2019-05-19 14:25:38,2019-05-19 14:25:38,0.043s,PASSED
+"setText(findTestObject(""Object Repository/Page_New community/textarea_Describe it in 140 characters or less_style__StyledTextArea-sc-17zryot-3 hSQZHk""), community_des)",Firefox 66.0,,,2019-05-19 14:25:38,2019-05-19 14:25:38,0.036s,PASSED
+"setText(findTestObject(""Object Repository/Page_New community/input_Optional Add your communitys website_style__StyledInput-sc-17zryot-2 jHXlSy""), community_website)",Firefox 66.0,,,2019-05-19 14:25:38,2019-05-19 14:25:38,0.095s,PASSED
+"click(findTestObject(""Object Repository/Page_New community/div_checkboxI have read the Spectrum Code of Conduct and agree to enforce it in my community""))",Firefox 66.0,,,2019-05-19 14:25:38,2019-05-19 14:25:39,0.274s,PASSED
+"click(findTestObject(""Object Repository/Page_New community/button_Create Community  Continue""))",Firefox 66.0,,,2019-05-19 14:25:39,2019-05-19 14:25:39,0.720s,PASSED
+"click(findTestObject(""Object Repository/Page_New community/button_Skip this step""))",Firefox 66.0,,,2019-05-19 14:25:39,2019-05-19 14:26:10,30.425s,FAILED

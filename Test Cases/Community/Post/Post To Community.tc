@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Post To Community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36b50520-97f6-4c26-97cb-323bb7b2ed27</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4cd6c0a5-586b-42a8-8ea8-4eca5c3ac97d</id>
+      <masked>false</masked>
+      <name>PostDetails</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c1fc8d5d-5882-44b3-af65-d5cbc4f334ba</id>
+      <masked>false</masked>
+      <name>PostDes</name>
+   </variable>
+</TestCaseEntity>

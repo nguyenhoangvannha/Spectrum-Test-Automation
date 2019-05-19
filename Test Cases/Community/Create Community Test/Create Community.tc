@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c999e54-a027-40bb-b21a-e7a3172ff774</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2debfab4-4c81-4810-9132-2ffc06753662</id>
+      <masked>false</masked>
+      <name>community_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cde85726-5b53-4dcd-8574-d584614eba64</id>
+      <masked>false</masked>
+      <name>community_des</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb64e561-d42d-4731-abf2-d461f4c4f3fb</id>
+      <masked>false</masked>
+      <name>community_website</name>
+   </variable>
+</TestCaseEntity>

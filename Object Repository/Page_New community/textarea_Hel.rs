@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Hel</value>
+      <value>hEL</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
