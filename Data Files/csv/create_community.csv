@@ -1,0 +1,11 @@
+Name,Describe,Website,Type
+Community 01,Test community 01,http://localhost:3000/new/community,TRUE
+Community 02,Test community 02,http://localhost:3000/new/community,FALSE
+Community 03,Test community 03,http://localhost:3000/new/community,TRUE
+Community 04,Test community 04,http://localhost:3000/new/community,FALSE
+Community 05,Test community 05,http://localhost:3000/new/community,TRUE
+Community 06,Test community 06,http://localhost:3000/new/community,FALSE
+Community 07,Test community 07,http://localhost:3000/new/community,TRUE
+Community 08,Test community 08,http://localhost:3000/new/community,FALSE
+Community 09,Test community 09,http://localhost:3000/new/community,TRUE
+Community 10,Test community 10,http://localhost:3000/new/community,FALSE
